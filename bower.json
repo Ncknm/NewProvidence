@@ -1,0 +1,43 @@
+{
+  "name": "11_lesson",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Vladyko.Nikita <vladyko.nikita@gmail.com"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7",
+    "slick": "*",
+    "css-hamburgers": "^0.9.3",
+    "slideout.js": "^1.0.1",
+    "jquery.maskedinput": "^1.4.1"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "./dist/js/bootstrap.min.js",
+        "./dist/css/bootstrap.min.css"
+      ]
+    },
+    "css-hamburgers": {
+      "main": [
+        "./dist/hamburgers.min.css"
+      ]
+    },
+    "jquery": {
+      "main": [
+        "./dist/jquery.min.js"
+      ]
+    }
+  }
+}
